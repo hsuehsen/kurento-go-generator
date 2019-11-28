@@ -1,7 +1,7 @@
 package main
 
-import "kurento-client-go-generator/kurento"
 import "net/http"
+import "kurento-go-generator/kurento"
 
 var pipeline = new(kurento.MediaPipeline)
 var master = new(kurento.WebRtcEndPoint)
